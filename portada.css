@@ -1,0 +1,153 @@
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#D2ABAD, #ffffff);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #9D5E68;
+    padding: 25px;
+    position: relative;
+    text-align: center;
+    height: 100px;
+}
+.botonini{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #9D5E68;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.botonini a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.botonini:hover{
+    background-color: #b77b86;
+}
+
+header h1{
+    color: white;
+    margin: 0;
+    line-height: 100px;
+    font-size: 36px;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header img{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+nav{
+    background-color: #E9DADF;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a{
+    color: #2D3939;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover{
+    color: #9AC2BB;
+}
+
+section{
+    background-color: rgba(255,255,255,0.95);
+    margin: 20px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h2{
+    color: #3B4C46;
+    border-bottom: 3px solid #E9DADF;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+section p{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+section img{
+    display: block;
+    margin: 20px auto;
+    max-width: 35%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#inicio{
+    text-align: center;
+}
+
+#inicio p{
+    max-width: 900px;
+    margin: auto;
+}
+
+#matematica,
+#biologia,
+#lengua{
+    text-align: center;
+}
+
+
+#matematica button,
+#biologia button,
+#lengua button{
+    background-color: #9D5E68;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+#matematica a,
+#biologia a,
+#lengua a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#matematica button:hover,
+#biologia button:hover,
+#lengua button:hover{
+    background-color: #E9DADF;
+}
+
+footer{
+    background-color: #9D5E68;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}

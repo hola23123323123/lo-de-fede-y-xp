@@ -1,0 +1,106 @@
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#D2ABAD, #ffffff);
+    margin: 0;
+    padding: 0;
+}
+
+ .main-content {
+    flex: 2;
+    padding: 20px;
+    height: 2000px; /* Simulated long page content */
+  }
+
+header{
+    background-color: #9D5E68;
+    padding: 25px;
+    position: relative;
+    text-align: center;
+    height: 100px;
+}
+
+header h1{
+    color: white;
+    margin: 0;
+    line-height: 100px;
+    font-size: 36px;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    bottom: 100%;
+}
+
+header button{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #9D5E68;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header button:hover{
+    background-color: #7A3E4B;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #E9DADF;
+    text-align: left;
+    padding: 15px;
+}
+
+nav a{
+    color: #2D3939;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+    column-gap: 10px;
+}
+
+nav a:hover{
+    color: #9AC2BB;
+}
+
+section{
+    background-color: rgba(255,255,255,0.95);
+    margin: 20px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h2{
+    color: #3B4C46;
+    border-bottom: 3px solid #E9DADF;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+section p{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+#fracciones, #potencias, #ecuaciones, #proporcionalidad {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: #9D5E68;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
